@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MD SHAFEEQUE HAIDER — Web Designer</title>
+    <meta name="description" content="Modern web designer creating clean, user-focused websites." />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=code_off" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="nav">
+        <div class="container nav-wrapper">
+            <!-- <h1 class="logo">MSH</h1> -->
+            <h1 class="material-symbols-outlined" id="nav-logo">code_off</h1>
+            <nav class="nav-menu" id="navMenu">
+                <a href="#work">Work</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#contact" class="btn">Hire Me</a>
+            </nav>
+            <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">MD SHAFEEQUE HAIDER</h1>
+                <h2>I design <span>impactful websites</span> that convert.</h2>
+                <p>Web designer helping brands stand out through clean design and great UX.</p>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn primary">Start a Project</a>
+                    <a href="#work" class="btn secondary">View My Work</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/shafeeque-haider-" target="_blank" aria-label="LinkedIn"><i
+                            class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/shafeeque19" target="_blank" aria-label="GitHub"><i
+                            class="fab fa-github"></i></a>
+
+                    <a href="mailto:shafeeque.er@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WORK -->
+    <section id="work" class="section">
+        <div class="container">
+            <h3 class="section-title">Selected Work</h3>
+
+            <div class="work-grid">
+                <div class="work-card" data-project="0">
+                    <div class="work-image">
+                        <div class="work-placeholder">Resturant website</div>
+                    </div>
+                    <h4>Resturant website</h4>
+                    <p>UI/UX Design · Web Design</p>
+                    <span class="work-link">View Details <i class="fas fa-arrow-right"></i></span>
+                </div>
+                <div class="work-card" data-project="1">
+                    <div class="work-image">
+                        <div class="work-placeholder">E-commerce</div>
+                    </div>
+                    <h4>E-commerce Website</h4>
+                    <p>UX · Conversion Optimization</p>
+                    <span class="work-link">View Details <i class="fas fa-arrow-right"></i></span>
+                </div>
+                <div class="work-card" data-project="2">
+                    <div class="work-image">
+                        <div class="work-placeholder">Portfolio</div>
+                    </div>
+                    <h4>Portfolio Website</h4>
+                    <p>Branding · Web Design</p>
+                    <span class="work-link">View Details <i class="fas fa-arrow-right"></i></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECT MODAL -->
+    <div class="modal" id="projectModal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <div class="modal-body" id="modalBody">
+                <!-- Dynamic content -->
+            </div>
+        </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section id="about" class="section light">
+        <div class="container about-grid">
+            <div>
+                <h2>About Me</h2>
+                <p>
+                    I'm a web designer with a passion for creating simple, beautiful, and
+                    user-focused digital experiences. I work closely with clients to turn ideas
+                    into effective websites.
+                </p>
+                <p>
+                    With over past few years of experience, I've helped startups and established brands
+                    create digital experiences that drive results. I believe in clean design,
+                    thoughtful UX, and code that works.
+                </p>
+                <a href="MD SHAFEEQUE HAIDER (resume new) (1).pdf" download class="btn primary"
+                    style="margin-top: 1.5rem; display: inline-block;">
+                    <i class="fas fa-download"></i> Download Resume
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SERVICES -->
+    <section id="services" class="section light">
+        <div class="container">
+            <h3 class="section-title">Services</h3>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-laptop-code"></i></div>
+                    <h4>Web Design</h4>
+                    <p>Custom, responsive websites designed to convert visitors into customers.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-mobile-alt"></i></div>
+                    <h4>UI/UX Design</h4>
+                    <p>User-centered interfaces focused on clarity, usability, and delightful experiences.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-paint-brush"></i></div>
+                    <h4>Website Redesign</h4>
+                    <p>Modernize your existing site for better performance, SEO, and user engagement.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- CONTACT -->
+    <section id="contact" class="section light">
+        <div class="container contact">
+            <h3>Let's work together</h3>
+            <p>Have a project in mind? Let's talk.</p>
+
+            <form id="contactForm">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Your Name" required />
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Your Email" required />
+                </div>
+                <div class="form-group">
+                    <input type="text" id="subject" placeholder="Subject" required />
+                </div>
+                <div class="form-group">
+                    <textarea id="message" placeholder="Tell me about your project" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn primary">
+                    <span class="btn-text">Send Message</span>
+                    <span class="btn-loader" style="display: none;"><i class="fas fa-spinner fa-spin"></i></span>
+                </button>
+                <div class="form-message" id="formMessage"></div>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>© 2026 Shafeeque Haider. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="https://linkedin.com/in/shafeeque-haider-" target="_blank"><i
+                            class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/shafeeque19" target="_blank"><i class="fab fa-github"></i></a>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
