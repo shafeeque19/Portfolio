@@ -11,14 +11,14 @@ const projects = [
     title: "E-commerce Website",
     category: "UX · Conversion Optimization",
     description: "Complete redesign of an e-commerce platform focusing on user experience and conversion optimization. Resulted in 40% increase in sales.",
-    technologies: ["Figma", "React", "Shopify"],
+    technologies: ["Vite", "React", "HTML/CSS"],
     link: "https://github.com/shafeeque19/Essence-E-com-website"
   },
   {
     title: "Portfolio Website",
     category: "Branding · Web Design",
     description: "A stunning portfolio website for a creative agency, showcasing their work with an immersive, interactive experience.",
-    technologies: ["Figma", "Next.js", "Framer Motion"],
+    technologies: ["Figma", "HTML/CSS", "JavaScript"],
     link: "https://github.com/shafeeque19"
   }
 ];
@@ -241,4 +241,5 @@ window.addEventListener('scroll', () => {
     hero.style.transform = `translateY(${scrolled * 0.5}px)`;
     hero.style.opacity = 1 - (scrolled / window.innerHeight) * 0.5;
   }
+
 });
